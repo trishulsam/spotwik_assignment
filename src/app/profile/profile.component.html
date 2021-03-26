@@ -1,4 +1,5 @@
-<h3> User Details</h3>
-<h4>First Name: Trishul</h4>
-<h4>Last Name: Mayank</h4>
-<h4>Username: trishul</h4>
+<div *ngFor = "let i of user_details">
+<div *ngFor = "let j of i | keyvalue">
+    <h4>{{j.key}}:{{j.value}}</h4>
+</div>
+</div>

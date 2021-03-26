@@ -1,6 +1,17 @@
 <h2>Home works</h2>
 <mat-card>
-  <a [routerLink] = "['/profile']">
+  <a [routerLink] = "['/profile']" (click)="onClick('trishul')" >
     <img src= "../../assets/download.jpg">
+  </a>
+</mat-card>
+<mat-card>
+  <a [routerLink] = "['/profile']" (click)="onClick('tree')">
+    <img  src= "../../assets/ab12.jpg" style="height: 250px; width: 250px;">
+  </a>
+</mat-card>
+
+<mat-card>
+  <a [routerLink] = "['/profile']" (click)="onClick('mayank')">
+    <img src= "../../assets/cd.jpg" style="height: 250px; width: 250px;">
   </a>
 </mat-card>
