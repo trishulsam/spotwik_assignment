@@ -24,7 +24,6 @@ export class RegisterComponent implements OnInit {
     };
     this.http.post("http://localhost:3000/credentials", this.input).toPromise().then((data:any)=>
     console.log(data))
-    // console.log(this.input)
   }
   
   ngOnInit(): void {
